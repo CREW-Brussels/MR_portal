@@ -3,7 +3,7 @@ XR collaboration between CREW and GLUON.
 MR Portal is a template for creating mixed reality portals on Android phones and Vive Focus 3 HMD.
 
 ## Requirements
-Android phone and HMD BOTH run on Android, we use the same configuration.
+Android phone and HMD both run on Android, we use the same configuration.
 This is the configuration that worked for us, some libraries may not be required.
 
 - Unreal Engine 5.1
@@ -33,4 +33,9 @@ This is the configuration that worked for us, some libraries may not be required
   - Mobile Development with C++
   - Game Development with C++
   - Linux and Embedded development with C++
+
+## Configuration
+We have preconfigured the Unreal Project, a couple of extra steps need to be taken:
+
+
 
