@@ -4,6 +4,7 @@ MR Portal is a template for creating mixed reality portals on Android phones and
 
 ## Requirements
 Android phone and HMD BOTH run on Android, we use the same configuration.
+This is the configuration that worked for us, some libraries may not be required.
 
 - Unreal Engine 5.1
 - Android Studio Flamingo
@@ -26,5 +27,10 @@ Android phone and HMD BOTH run on Android, we use the same configuration.
     - Android Emulator Hypervisor Driver 2.0.0
     - Android SDK Platform Tools 34.0.3  
     
-Visual Studio Community 2022
+- Visual Studio Community 2022
+  - .NET Desktop Development
+  - Desktop development with C++
+  - Mobile Development with C++
+  - Game Development with C++
+  - Linux and Embedded development with C++
 
