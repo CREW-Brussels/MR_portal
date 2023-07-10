@@ -37,8 +37,6 @@ It is best to use reasonably recent phones.
 ## Configuration
 We have preconfigured the Unreal Project, a couple of extra steps need to be taken:
 
-### Unreal Engine AndroidSDK Platform Settings
-
 ### Android phone preparation
 - Make sure you use a **data** USB 3.x cable.
 - Your phone should be in developer mode 
@@ -48,3 +46,10 @@ We have preconfigured the Unreal Project, a couple of extra steps need to be tak
   - USB Debugging ON
   - Install via USB ON
 
+### Unreal Engine Android SDK Settings (Optional)
+
+These steps are optional, but are useful to explicitly define which installed toolchain components that are to be used.
+
+In the `Project Settings -> Platforms -> Android SDK` settings page, set the following parameters as shown below as similarly as possible depending on your equivalent components are installed.
+
+![](/_img/UE_AndroidSDKSettings.png)
