@@ -11,23 +11,22 @@ It is best to use reasonably recent phones.
 - Android Studio Flamingo
   - SDK Platforms
     - Android API 34
-    - Android 12L
-    - Android 5
+    - Android 10.0
   - SDK Tools
     - SDK Build Tools
       - 30.0.3
-      - 29.02
+      - 29.0.2
     - NDK (Side-by-side)
       - 25.1
-      - 21.4
+      - 21.1
     - Android SDK Command Line Tools
-      - Android SDK Command Line Tools 9.0 (latest at the time)
+      - Android SDK Command Line Tools 8.0
     - CMAKE
       - 3.10
     - Android Emulator 32.1
     - Android Emulator Hypervisor Driver 2.0.0
-    - Android SDK Platform Tools 34.0.3  
-    
+    - Android SDK Platform Tools 34.0.3
+- Java Development Kit (JDK) 1.8.0.22
 - Visual Studio Community 2022
   - .NET Desktop Development
   - Desktop development with C++
@@ -38,10 +37,14 @@ It is best to use reasonably recent phones.
 ## Configuration
 We have preconfigured the Unreal Project, a couple of extra steps need to be taken:
 
+### Unreal Engine AndroidSDK Platform Settings
+
 ### Android phone preparation
 - Make sure you use a **data** USB 3.x cable.
-- Your phone should be in developer mode with USB Debugging ON. https://developer.android.com/studio/debug/dev-options
-
-
-
+- Your phone should be in developer mode 
+  - Read this guide on how to activate it https://developer.android.com/studio/debug/dev-options
+  - The exact method to activate developer mode can differ depending on the brand. To find instructions, try searching for "Activate developer mode \<BRAND NAME>" online 
+- The following settings need to be activated: 
+  - USB Debugging ON
+  - Install via USB ON
 
