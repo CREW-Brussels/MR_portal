@@ -52,4 +52,4 @@ These steps are optional, but are useful to explicitly define which installed to
 
 In the `Project Settings -> Platforms -> Android SDK` settings page, set the following parameters as shown below as similarly as possible depending on your equivalent components are installed.
 
-![](/_img/UE_AndroidSDKSettings.png)
+![Android SDK Settings](/_img/UE_AndroidSDKSettings.png)
